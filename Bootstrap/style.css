@@ -1,0 +1,22 @@
+.logo {
+    margin-top: 15px;
+}
+.border.border-grey.rounded-pill.d-flex.justify-content-around {
+    margin-top: 15px;
+    height: 45px;
+    padding: 6px;
+}
+.d-flex.justify-content-around1 {
+    margin-top: 20px;
+}
+.d-flex.flex-row figure {
+    margin-left: 40px;
+}
+.d-flex.flex-row2 figure {
+    margin-top: 25px;
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+.navbar.bg-light.d-flex.flex-nowrap.fixed-bottom {
+    padding: 5px 45px;
+}
