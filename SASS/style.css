@@ -91,7 +91,12 @@ body {
 }
 .ranger1 img {
     margin: 5px -60px 0px 5px;
-    width: 280px;
-    height: 280px;
+    border-radius: 10px;
+}
+.ranger2 {
+    display: flex;
+}
+.ranger2 img {
+    margin: 5px -60px 0px 5px;
     border-radius: 10px;
 }
