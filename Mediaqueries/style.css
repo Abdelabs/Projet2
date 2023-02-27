@@ -1,28 +1,28 @@
 .logo {
     margin-top: 15px;
 }
-.border.border-grey.rounded-pill.d-flex.justify-content-around1 {
+.border.border-grey.rounded-pill.d-flex.justify-content-around1 { /*encadrer n°1*/
     margin-top: 15px;
     height: 45px;
     padding: 6px;
 }
-.d-flex.justify-content-around1 {
+.d-flex.justify-content-around1 { /*header afin qu'il ne depasse pas du cadre*/
     margin-top: 20px;
 }
-.d-flex.flex-row1 figure {
+.d-flex.flex-row1 figure { /*premiere ranger d'image*/
     margin-top: 25px;
     margin-left: 40px;
 }
-.d-flex.flex-row2 figure {
+.d-flex.flex-row2 figure { /*Deuxieme ranger d'image*/
     margin-top: 25px;
     margin-left: 40px;
 }
-.navbar.bg-light.fixed-bottom.d-flex.flex-nowrap {
+.navbar.bg-light.fixed-bottom.d-flex.flex-nowrap { /*rembourrage interrieur du footer*/
     padding: 10px;
 }
-@media only screen and (max-width: 979px) {
+@media only screen and (max-width: 915px) {
     .d-flex.justify-content-around1 { /*Header pour le mettre en collone sur plsr lignes avec une marge de 10px*/
-        margin: 10px;
+        margin: 20px;
         flex-flow: column wrap;
      }
     .logo { /*redimenssion du logo Airbnb*/
@@ -43,14 +43,14 @@
     }
     .d-flex.justify-content-around.text-muted { /*la partie avec les icones*/
         flex-flow: row wrap; /*pour les alligner en plsr ligne*/
-        margin: 5px 20px; /*pour mettre une marge haut-bas puis gauche-droite*/
+        margin: 5px 25px; /*pour mettre une marge haut-bas puis gauche-droite*/
     }
-    .d-flex.flex-row1, .d-flex.flex-row2 {
+    .d-flex.flex-row1, .d-flex.flex-row2 { /* pour mettre en collone les images*/
         flex-direction: column;
     }
-    .navbar.bg-light.d-flex.flex-nowrap {
+    .navbar.bg-light.d-flex.flex-nowrap { /* mettre les element du footer en collone inverser*/
         flex-flow:column-reverse wrap;
-        padding: 5px;
+        margin: 20px;
     }
     
     
